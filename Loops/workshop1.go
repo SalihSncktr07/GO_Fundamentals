@@ -21,5 +21,11 @@ func Ws1() {
 			tahmin_sayisi++
 		}
 	}
-	fmt.Println("Bravo, doğru sayıyı buldunuz!! Tahmin sayınız:", tahmin_sayisi)
+	if tahmin_sayisi <= 3 {
+		fmt.Println("Bravo, doğru sayıyı buldunuz!! Tahmin sayınız:", tahmin_sayisi)
+	} else if tahmin_sayisi <= 5{
+		fmt.Println("Güzel, doğru sayıyı buldunuz!! Tahmin sayınız:", tahmin_sayisi)
+	} else {
+		fmt.Println("Fena değil, doğru sayıyı buldunuz!! Tahmin sayınız:", tahmin_sayisi)
+	}
 }
