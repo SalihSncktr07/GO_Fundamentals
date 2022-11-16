@@ -10,4 +10,4 @@
 
 # go dilinde kullanılmayan değişkenler ve paketler hata veriri, sadece kullanılan kodlar yazılır
 
-#
+# else if sadece 2 den fazla olan durumlarda kullanılır, eğer sadece iki durum varsa if ve else kullanılır.

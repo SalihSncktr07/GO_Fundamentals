@@ -7,12 +7,12 @@ func Demo1() {
 	var cekilen float64 = 50.57
 
 	if cekilen > hesap {
-		fmt.Print("Hesaptaki para yetersiz.")
-		fmt.Print("Hesaptaki para -> ", hesap)
+		fmt.Println("Hesaptaki para yetersiz.")
+		fmt.Println("Hesaptaki para -> ", hesap)
 	}
 
 	if cekilen < hesap {
-		fmt.Print("Paranız hazırlanıyor...")
-		fmt.Print("Hesaptaki para -> ", hesap - cekilen)
+		fmt.Println("Paranız hazırlanıyor...")
+		fmt.Println("Hesaptaki para -> ", hesap - cekilen)
 	}
 }
