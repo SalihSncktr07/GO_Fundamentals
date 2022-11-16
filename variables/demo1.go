@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func Demo1() {
 	var metin string = "Hello World!"
 	var sayi int = 15
 	var sayi2 float32 = 1.6

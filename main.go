@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "golesson/variables"
 
 func main() {
-	fmt.Print("Hello GO!")
+	variables.Demo1()
 }
