@@ -7,5 +7,5 @@ import (
 
 func main() {
 	//conditionals.Ws()
-	loops.Ws1()
+	loops.Ws2()
 }
