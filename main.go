@@ -1,11 +1,11 @@
 package main
 
-import "golesson/variables"
-	//go mod init golesson <- komutu
-	/*
-	birden fazla package eklenirken () arasına yazılı, paketler arasına birşey konulmaz!!
-	*/
-	
+import (
+	"golesson/conditionals"
+	//"golesson/variables"
+)
+
 func main() {
-	variables.Demo1()
+	//variables.Demo1()
+	conditionals.Demo1()
 }

@@ -1,0 +1,13 @@
+//  tek satır yorum
+
+/*
+    birden fazla yorum satırı
+*/
+
+# go mod init golesson <- komutu
+
+# birden fazla package eklenirken () arasına yazılı, paketler arasına birşey konulmaz!!
+
+# go dilinde kullanılmayan değişkenler ve paketler hata veriri, sadece kullanılan kodlar yazılır
+
+#
