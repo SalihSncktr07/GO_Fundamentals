@@ -2,10 +2,10 @@ package main
 
 import (
 	//"golesson/variables"
-	"golesson/loops"
+	"golesson/arrays"
 )
 
 func main() {
 	//conditionals.Ws()
-	loops.Ws2()
+	arrays.Demo1()
 }
