@@ -7,6 +7,10 @@ func main() {
 	var sayi int = 15
 	var sayi2 float32 = 1.6
 	sayi3 := 30
+	var durum bool
+	metin1 := "salih"
+	metin2 := "salih"
+	durum = metin1 == metin2
 
 	fmt.Println("Hello GO!")
 	fmt.Println(60)
@@ -21,4 +25,6 @@ func main() {
 
 	fmt.Println(sayi3)
 	fmt.Printf("sayi3 -> Veri tipi: %T\n", sayi3)
+
+	fmt.Println("bool türü: ", durum)
 }
