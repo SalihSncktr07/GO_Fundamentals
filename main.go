@@ -1,7 +1,7 @@
 package main
 
 import "golesson/variables"
-	//"fmt"
+	//go mod init golesson <- komutu
 	/*
 	birden fazla package eklenirken () arasına yazılı, paketler arasına birşey konulmaz!!
 	*/
