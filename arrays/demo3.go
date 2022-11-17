@@ -19,4 +19,10 @@ func Demo3() {
 		}
 		fmt.Println()
 	}
+
+	furits := []string{"Apple", "Banana", "Orange", "Cherry", "Watermelon"}
+
+	fmt.Println(furits[2:4]) //2. indisdeki değerden başlayarak 4. indise kadar yazar (2 DAHİL, 4 DEĞİL)!
+	fmt.Println(furits[:4])  //en baştan başlayıp 4. indise kadar yazar (4 dahil değil)
+	fmt.Println(furits[2:])  //2. indisden başlayıp en sona kadar yazar (2 dahil)
 }
