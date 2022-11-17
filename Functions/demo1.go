@@ -2,7 +2,7 @@ package functions
 
 import "fmt"
 
-func Topla(a int, b int) int {
+func Topla(a int, b int) int /* Dönüş tipi */ {
 	sum := a + b
 	fmt.Println("Fonk çalışınca gelen değer:", sum)
 	return sum
