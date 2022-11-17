@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Demo3() {
+func Demo2() {
 	sayilar := [5]int{5, 8, 64, 32, 2}
 	enBuyuk := sayilar[0]
 
