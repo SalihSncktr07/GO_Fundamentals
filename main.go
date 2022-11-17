@@ -2,10 +2,14 @@ package main
 
 import (
 	//"golesson/variables"
-	"golesson/arrays"
+	"fmt"
+	functions "golesson/Functions"
 )
 
 func main() {
 	//conditionals.Ws()
-	arrays.Demo3()
+	functions.SelamVer("Salih")
+	var sonuc = functions.Topla(2, 5)
+	sonuc *= 10
+	fmt.Println("Main çalışınca gelen değer:", sonuc)
 }
