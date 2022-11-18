@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"golesson/pointers"
+	"golesson/structs"
 )
 
 func main() {
-	sayilar := []int{1, 2, 3}
-	pointers.Demo2(sayilar)
-	fmt.Println("Maindeki sayı: ", sayilar[0])
+	structs.Demo1()
 }
