@@ -21,4 +21,16 @@ func Demo1() {
 
 	sozluk2 := map[string]string{"glass": "cam", "door": "kapı"}
 	fmt.Println(sozluk2)
+
+	sozlukIS := map[int]string{1: "bir", 2: "iki", 3: "üç"}
+	fmt.Println(sozlukIS)
+	fmt.Println(sozlukIS[2])
+
+	sozlukSI := map[string]int{"bir": 1, "iki": 2, "üç": 3}
+	fmt.Println(sozlukSI)
+	fmt.Println(sozlukSI["üç"])
+
+	sozlukII :=map[int]int{1: 11, 2: 22, 3: 33}
+	fmt.Println(sozlukII)
+	fmt.Println(sozlukII[1])
 }
