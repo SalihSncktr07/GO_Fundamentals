@@ -1,9 +1,9 @@
 package main
 
 import (
-	"golesson/maps"
+	"golesson/for_range"
 )
 
 func main() {
-	maps.Demo1()
+	for_range.Demo2()
 }
