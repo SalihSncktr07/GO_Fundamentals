@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	for_range.Demo2()
+	for_range.Demo1()
 }
