@@ -1,9 +1,12 @@
 package main
 
 import (
-	"golesson/for_range"
+	"fmt"
+	"golesson/pointers"
 )
 
 func main() {
-	for_range.Demo1()
+	sayilar := []int{1, 2, 3}
+	pointers.Demo2(sayilar)
+	fmt.Println("Maindeki sayı: ", sayilar[0])
 }

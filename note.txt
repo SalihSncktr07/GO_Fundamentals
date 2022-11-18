@@ -1,3 +1,5 @@
+# kod yukarıdan aşağıya okunur
+
 //  tek satır yorum
 
 /*
@@ -11,3 +13,7 @@
 # go dilinde kullanılmayan değişkenler ve paketler hata veriri, sadece kullanılan kodlar yazılır
 
 # else if sadece 2 den fazla olan durumlarda kullanılır, eğer sadece iki durum varsa if ve else kullanılır.
+
+# mainden functiona göderilern sayıda işlem yapılsa bile mainde sayı ilk hali ile kalır func kısmı değişir
+
+#
