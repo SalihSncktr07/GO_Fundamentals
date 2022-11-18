@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	structs.Demo1()
+	structs.Demo2()
 }
