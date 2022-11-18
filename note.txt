@@ -18,4 +18,6 @@
 
 # fonksyon isimlerinin başı büyük olmalı
 
+# mainde çağırma metodunun başına go yazılırsa onu çalıştırmadan bir sonraki işleme geçer
+
 #
