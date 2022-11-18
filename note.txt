@@ -16,4 +16,6 @@
 
 # mainden functiona göderilern sayıda işlem yapılsa bile mainde sayı ilk hali ile kalır func kısmı değişir
 
+# fonksyon isimlerinin başı büyük olmalı
+
 #
