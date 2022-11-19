@@ -1,14 +1,15 @@
 package main
 
-import (
-	"fmt"
-	"golesson/goroutines"
-	"time"
-)
+import "fmt"
 
 func main() {
-	go goroutines.TekSayi()
-	go goroutines.CiftSayi()
-	time.Sleep(5 * time.Second) //5 sn (eğer 5 yazılmasaydı default 1sn olurdu)
-	fmt.Println("Main bitti")
+	tekCn := make(chan int)
+	ciftCn := make(chan int)
+	go channels.TekSayilar(tekCn)
+	go channels.CiftSayilar(ciftCn)
+
+	ciftSayiToplam, tekSayiToplam := <-ciftCn, <-tekCn
+
+	carpim := ciftSayiToplam * tekSayiToplam
+	fmt.Println("Çarpım:", carpim)
 }
