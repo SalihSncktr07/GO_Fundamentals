@@ -3,5 +3,5 @@ package main
 import "golesson/interfaces"
 
 func main() {
-	interfaces.Demo1()
+	interfaces.Demo2()
 }
