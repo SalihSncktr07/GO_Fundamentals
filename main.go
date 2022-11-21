@@ -1,7 +1,7 @@
 package main
 
-import "golesson/interfaces"
+import "golesson/defer_statment"
 
 func main() {
-	interfaces.Demo2()
+	defer_statment.B()
 }
