@@ -3,5 +3,5 @@ package main
 import "golesson/defer_statment"
 
 func main() {
-	defer_statment.B()
+	defer_statment.Test()
 }
