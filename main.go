@@ -1,7 +1,7 @@
 package main
 
-import "golesson/defer_statment"
+import "golesson/error_handling"
 
 func main() {
-	defer_statment.Demo3()
+	error_handling.Demo1()
 }
