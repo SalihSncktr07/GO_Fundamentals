@@ -1,7 +1,7 @@
 package main
 
-import "golesson/interfaces"
+import "golesson/error_handling"
 
 func main() {
-	interfaces.Demo3()
+	error_handling.Demo2()
 }
