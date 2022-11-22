@@ -20,4 +20,6 @@
 
 # mainde çağırma metodunun başına go yazılırsa onu çalıştırmadan bir sonraki işleme geçer
 
-#
+# GET okumak için, POST silme, güncelleme ve ekleme işlemleri yapılı
+
+# 
