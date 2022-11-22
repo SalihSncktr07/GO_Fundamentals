@@ -1,7 +1,7 @@
 package main
 
-import "golesson/error_handling"
+import "golesson/string_functions"
 
 func main() {
-	error_handling.TahminEt(36)
+	string_functions.Demo1()
 }
