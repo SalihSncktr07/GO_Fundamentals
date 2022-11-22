@@ -22,4 +22,4 @@
 
 # GET okumak için, POST silme, güncelleme ve ekleme işlemleri yapılı
 
-# 
+# https://mholt.github.io/json-to-go/ ile json kodunu go koduna çevirir
