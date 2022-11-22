@@ -1,7 +1,7 @@
 package main
 
-import "golesson/string_functions"
+import "golesson/restful"
 
 func main() {
-	string_functions.Demo2()
+	restful.Demo1()
 }
