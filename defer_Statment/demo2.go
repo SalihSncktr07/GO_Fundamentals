@@ -6,12 +6,12 @@ func Demo(sayi int) string {
 	defer DeferFunc()
 
 	if sayi%2 == 0 {
-		fmt.Println("FÇift")
+		fmt.Println("Çift")
 		return "Çift"
 	}
 
 	if sayi%2 != 0 {
-		fmt.Println("tek")
+		fmt.Println("Tek")
 	}
 
 	return "Belli değil"
